@@ -125,7 +125,7 @@ setup(name='mongo-connector',
       install_requires=['pymongo >= 2.7.2, < 3.0.0',
                         'pysolr >= 3.1.0',
                         'elasticsearch >= 1.2, < 2.0.0',
-                        'requests-aws4auth >= 0.7'],
+                        'requests-aws4auth >= 0.8'],
       packages=["mongo_connector", "mongo_connector.doc_managers"],
       package_data={
           'mongo_connector.doc_managers': ['schema.xml']
